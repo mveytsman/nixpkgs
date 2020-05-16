@@ -11418,6 +11418,8 @@ julia_15 = callPackage ../development/compilers/julia/1.5.nix {
 
   ccloud-cli = callPackage ../development/tools/ccloud-cli { };
 
+  htmlbeautifier = callPackage ../development/web/htmlbeautifier { };
+
   htmlunit-driver = callPackage ../development/tools/selenium/htmlunit-driver { };
 
   hyenae = callPackage ../tools/networking/hyenae { };
