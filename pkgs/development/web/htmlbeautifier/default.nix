@@ -13,6 +13,6 @@ bundlerApp {
     homepage = "https://github.com/threedaymonk/htmlbeautifier";
     license = licenses.mit;
     platforms = ruby.meta.platforms;
-    maintainers =  with maintainers; [mveytsman];
+    maintainers =  with maintainers; [ mveytsman ];
   };
 }
